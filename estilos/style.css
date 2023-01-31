@@ -32,10 +32,12 @@ section#login {
     transform: translate(-50%,-50%);
     overflow: hidden; /*Tudo que estiver fora da borda, fica escondida*/
     background-color: white;
-    width: 375px;
+    width: 250px;
     height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    transition: width 0.1s, height 0.1s;
+    transition-timing-function: ease;
 
 }
 
